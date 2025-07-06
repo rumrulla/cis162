@@ -4,6 +4,10 @@
          url('Quicksand-Regular.tff') format('truetype');
 }
 
+main {
+    width: 100%
+}
+
 body {
     color: rgb(91, 91, 91);
   background-color: darkturquoise;
@@ -11,19 +15,27 @@ body {
 }
 
 
-h1 {
+h1, h2 {
     color: rebeccapurple;
 }
 
 p {
+  border: 2px outline red;
+  
   font-family: verdana;
   font-size: 20px;
   padding: 10px 35px 10px 30px;
 }
 
-section {background-color: burlywood;
-        width:85%;
-    font-size: 1.2em;}
+section {
+    background-color: burlywood;
+    width: 50;
+    font-size: 1.2em;
+    padding: 1.5em; 
+	outline: 5px solid purple;
+	outline-offset: 5px;
+    
+}
 
 
 body > footer address {
@@ -53,4 +65,11 @@ nav > ul > li > a:hover, nav > ul > li > a:active {
     text-decoration-color: coral;
 }
 
-footer {background-color: beige;}
+footer {
+    background-color: beige;
+    border: 2px outline red;
+    padding: 1.5em
+    outline: 5px solid purple;
+    outline-offset: 5px;
+
+}
