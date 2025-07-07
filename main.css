@@ -3,8 +3,14 @@
     src: url('Quicksand-Regular.woff') format('woff'),
          url('Quicksand-Regular.tff') format('truetype');
 }
-/* should i set the margin to 0 so i can work with % ? */
-main {
+
+#container {
+    min-height: 100%
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 100px;
     width: 100%
 }
 
@@ -21,8 +27,7 @@ h1, h2 {
 }
 
 p {
-  border: 2px outline red;
-  
+  border: 2px;
   font-family: verdana;
   font-size: 20px;
   padding: 10px 35px 10px 20px;
@@ -30,7 +35,7 @@ p {
 
 section {
     background-color: burlywood;
-    width: 50;
+    width: 50%;
     font-size: 1.2em;
     padding: 1.5em; 
 	outline: 5px solid purple;
@@ -39,7 +44,7 @@ section {
 }
 article {
     background-color: burlywood;
-    width: 50;
+    width: 50%;
     font-size: 1.2em;
     padding: 1.5em; 
 	outline: 5px solid purple;
@@ -55,7 +60,7 @@ body > footer address {
         Quicksand, Verdana, Geneva, sans-serif; 
     text-align: center;
     
- }
+}
 
    
 nav > ul {
@@ -74,11 +79,7 @@ nav > ul > li > a:hover, nav > ul > li > a:active {
     text-decoration-color: coral;
 }
 
-footer {
+#footer {
     background-color: lightsalmon;
-    border: 2px outline red;
-    padding: 1.5em
-    outline: 5px solid purple;
-    outline-offset: 5px;
-    
+    height: 100px
 }
