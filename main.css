@@ -10,8 +10,8 @@
 
 #main {
     overflow: auto;
-    padding-bottom: 30px;
-    width: 50%
+    padding-bottom: 100px;
+    width: 100%
 }
 
 body {
@@ -35,7 +35,7 @@ p {
 
 section {
     background-color: burlywood;
-    width: 50%;
+/* removed the margin 50% here to adjust margin borders */
     font-size: 1.2em;
     padding: 1.5em; 
 	outline: 5px solid purple;
@@ -44,7 +44,7 @@ section {
 }
 article {
     background-color: burlywood;
-    width: 50%;
+/* removed the margin 50% here to adjust margin borders */    
     font-size: 1.2em;
     padding: 1.5em; 
 	outline: 5px solid purple;
